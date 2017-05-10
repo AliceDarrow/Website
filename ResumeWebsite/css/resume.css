@@ -1,0 +1,31 @@
+.body {
+    font-family: 'Abel', sans-serif;
+}
+.col-lg-3 {
+  text-align: center;
+}
+p{
+  width: 50%;
+  color: #2A2B2A;
+}
+.fa {
+  color: #AFC2D5;
+  font-size: 80px;
+  text-align: center;
+  margin-top: 1em;
+}
+.resume-header {
+  color: white;
+  font-size: 64px;
+  text-align: center;
+  font-family: 'Abel', sans-serif;
+  width: 100%;
+}
+.resume-title {
+  color: #AFC2D5;
+}
+
+#resume-right {
+  background-color: #A30B37;
+  height: 8em;
+}
