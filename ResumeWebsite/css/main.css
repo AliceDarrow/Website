@@ -5,89 +5,45 @@ html, body {
   margin: 0 auto;
   padding-top: 00px;
 }
+
 p {
-  font-size: 24px;
+  font-size: 2vw;
+  font-family: 'Abel', sans-serif;
 }
+
+
+.about {
+  text-align: center;
+  margin-top: 2em;
+  font-family: 'Abel', sans-serif;
+}
+
 .bg-1 {
     background-color:#a30b37 ;
     color: #f7ece1;
-  }
-#main-photo{
-  margin: 0 auto;
-  display: block;
-  background-color: #D7D0C8;
-  border: 0px;
-  margin-top: 3em;
-    }
-
-#Name{
-  font-family: 'Abel', sans-serif;
-  font-size: 64px;
-  text-align: left;
-}
-p {
-  font-family: 'Abel', sans-serif;
+    height: 8em;
 }
 
-a {
-  color: #ffffff;
+.col-centered {
+  text-align: center;
 }
 
-.navbar-nav{
-  float:none;
-  display:inline-block;
-  font-family: 'Abel', sans-serif;
-  font-size: 24px;
-}
-
-.homeHeaders {
-  font-family: 'Abel', sans-serif;
-  color: #B3C5D7;
-}
-.homeBody{
-  font-family: 'Abel', sans-serif;
-  color: #25283D;
-  text-align: left;
-}
-.span2{
-  width: 300px;
-}
-.span10 {
-  width: auto;
-}
 .social-media-icons {
   text-align: center;
   font-size: 24px;
   color: #a30b37;
 }
-.redirect-links{
-  margin: 1em;
+
+.tile-content {
+  position: absolute;
+  height: 80%;
+  width:24%;
+  padding: 10% 5%;
   text-align: center;
-  font-size: 48px;
+  color: white;
+  font-size: 2vw;
 }
-.contact-info{
-  text-align: center;
-  color: #8C092E;
-}
-.Resume-link{
-  height: 25%;
-  background-color: #8C092E;
-  margin: 2em;
-  text-align: center;
-}
-.Piano-link{
-  height: 25%;
-  background-color: #8C092E;
-  margin: 2em;
-  text-align: center;
-}
-.Research-link{
-  height: 25%;
-  background-color: #8C092E;
-  margin: 2em;
-  text-align: center;
-  width: auto;
-}
+
 .tiles {
   width: 25%;
   padding-bottom: 25%;
@@ -96,24 +52,45 @@ a {
   margin-left: 2em;
   display: inline-block;
 }
-.tile-content {
-  position: absolute;
-  height: 80%;
-  width:24%;
-  padding: 10% 5%;
+
+
+
+#about {
   text-align: center;
-  color: #afc2d5;
-  font-size: 48px;
+  font-size: 18px;
 }
-#first-tile {
-  margin-left: 4em;
-}
+
 #main-left {
   height: 100vh;
   padding-left: 0px;
   background-color: #afc2d5;
 }
-#main-right{
+
+#main-photo {
+  margin: 0 auto;
+  display: block;
+  background-color: white;
+  border: 0px;
+  margin-top: 3em;
+}
+
+#main-right {
   height: 100vh;
-  background-color: #f7ece1;
+  background-color: white;
+}
+
+
+#Name {
+  font-family: 'Abel', sans-serif;
+  font-size: 64px;
+  text-align: left;
+  color: white;
+}
+
+#navBar {
+  text-align: left;
+  margin-top: -1em;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
 }
